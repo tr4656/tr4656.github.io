@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Lamy 2000 Review
-date: '2014-11-02 20:17:36'
+date: "2014-11-02 20:17:36"
+published: true
 ---
 
 I've been interested in fountain pens for almost an year now. Last year, I started with a Lamy Safari and eventually got a Rotring 600, Pilot Parallel, and then the Kaweco AL Sport. I saw the Lamy 2000 online and couldn't help wanting one. The industrial design was very modern and sleek, and it was on [The Pen Addict's Top 5 list](http://www.penaddict.com/top-5-pens/). There was a sale at [Massdrop](https://www.massdrop.com/r/PNZPPC) that was too good to miss so I ordered one. 
@@ -42,7 +43,6 @@ When the pen is loaded with ink, it is a bit top heavy<sup id="fnref:1"><a href=
 I really do see why there is such a following for this pen. It's very modern design has caused it to be placed within the MoMA and writes brillantly as well. As my first >$100 and gold nib fountain pen, I can really see this becoming my main pen because its simply a joy to use. The experience really blew me away.
 
 ![](https://s3.amazonaws.com/yifanj.in/DSC_8847.jpg)
-![Lamy 2000](https://s3.amazonaws.com/yifanj.in/DSC_8839.jpg)
 
 <div class="footnotes"><ol>
     <li class="footnote" id="fn:1">
