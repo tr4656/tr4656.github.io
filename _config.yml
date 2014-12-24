@@ -1,0 +1,17 @@
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Yifanj.in
+url:              http://yifanj.in
+paginate:         5
+baseurl:          /
+author:
+  name:           Yifan Jin
+  url:            http://yifanj.in
+  email:          me@yifanj.in
+pages_list:
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'

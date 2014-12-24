@@ -1,0 +1,32 @@
+---
+layout: default
+title: Home
+---
+
+{% for post in paginator.posts %}
+<section class="date-section">
+  {% capture currentdate %}{{post.date | date: "%A, %B %d, %Y"}}{% endcapture %}
+  {% if currentdate != thedate %}
+  <h2 class="date">{{ currentdate }}</h2>
+  {% capture thedate %}{{currentdate}}{% endcapture %}
+  {% endif %}
+  <article class="post-preview">
+    <h2 class="post-title"><a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a>{% if post.link %}<span class="permalink"><a href="{{ post.url | prepend: site.url }}"></a></span>{% endif %}</h2>
+    {% if post.link %}{{ post.content }}{% else %}{{ post.excerpt | strip_html }}{% endif %}
+  </article>
+</section>
+{% endfor %}
+
+<div class="pagination">
+  {% if paginator.previous_page %}
+  <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% else %}
+  <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page-number">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+  <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+  <span class="next ">Next</span>
+  {% endif %}
+</div>
