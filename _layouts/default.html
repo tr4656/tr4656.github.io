@@ -24,6 +24,19 @@
         <small>
           &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
         </small>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="{{ site.baseurl }}public/js/bigfoot.min.js"></script>
+		<script type="text/javascript">
+			var bigfoot = $.bigfoot(
+				{
+					deleteOnUnhover: false,
+					preventPageScroll: false,
+					hoverDelay: 250,
+					positionConetnt: true,
+					actionOriginalFN: ignore
+				}
+			);
+		</script>
       </footer>
     </div>
 
