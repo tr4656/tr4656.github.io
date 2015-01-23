@@ -6,6 +6,7 @@ layout: default
   <h1 class="post-title">{% if page.link %}<a href="{{ page.link }}" class="link">{{ page.title }}</a>{% else %}{{ page.title }}{% endif %}{% if page.link %} →{% endif %}</h1>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="page-date">{{ page.date | date_to_string }}</time>
   {{ content }}
+  <span class="meta-permalink"><a href="{{ page.url | prepend: site.url }}">Permalink</a></span><span class="permalink"> <a href="{{ page.url | prepend: site.url }}">∞</a></span>
 </article>
 
- <span class="meta-permalink"><a href="{{ page.url | prepend: site.url }}">Permalink</a></span><span class="permalink"> <a href="{{ page.url | prepend: site.url }}">∞</a></span>
+ 
