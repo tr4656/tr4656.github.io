@@ -235,6 +235,16 @@ img {
   margin: 0 0 1rem;
   border-radius: 3px;
 }
+em img {
+  max-width: 54rem;
+  margin-left: -7rem;  
+}
+@media screen and (max-width: 56rem) {
+  em img {
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
 
 /* Tables */
 table {
