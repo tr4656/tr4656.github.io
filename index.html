@@ -11,8 +11,9 @@ title: Home
   {% capture thedate %}{{currentdate}}{% endcapture %}
   {% endif %}
   <article class="post-preview">
-    <h2 class="post-title"><a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a>{% if post.link %}<span class="permalink"><a href="{{ post.url | prepend: site.url }}"></a></span>{% endif %}</h2>
+    <h2 class="post-title"><a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}" {% if post.link %}class="link"{% endif %}>{{ post.title }}</a>{% if post.link %} →{% endif %}</h2>
     {% if post.link %}{{ post.content }}{% else %}{{ post.excerpt | strip_html }}{% endif %}
+    {% if post.link %}<span class="permalink"><a href="{{ post.url | prepend: site.url }}">∞</a></span>{% endif %}
   </article>
 </section>
 {% endfor %}
