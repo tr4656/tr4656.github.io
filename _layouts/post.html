@@ -4,7 +4,6 @@ layout: default
 
 <article class="post">
   <h1 class="post-title">{% if page.link %}<a href="{{ page.link }}" class="link">{{ page.title }}</a>{% else %}{{ page.title }}{% endif %}{% if page.link %} →{% endif %}</h1>
-  <h1 class="post-title">{{ page.title }}</h1>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="page-date">{{ page.date | date_to_string }}</time>
   {{ content }}
 </article>
