@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Comcast Sorry For Changing Subscribers'S Name To A-Hole
+title: Comcast Sorry For Changing Subscribers's Name To A-Hole
 date: 2015-01-30 01:05
 link: http://thedailywh.at/2015/01/apology-day-comcast-sorry-changing-subscribers-name-hole/
 ---
