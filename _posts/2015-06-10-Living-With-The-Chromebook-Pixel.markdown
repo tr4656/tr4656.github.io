@@ -6,7 +6,7 @@ date: 2015-06-10 14:28
 
 The Chromebook Pixel is an unusual device. Contrary to every other Chromebook and the idea behind them, the Pixel is  expensive with powerful hardware on a very limiting operating system that serves as only a web browser. Yet regardless, I bought one anyways because I was intrigued by the device and a few tricks it has that people who haven't looked into ChromeOS devices aren't aware of.
 
-![](https://s3.amazonaws.com/yifanj.in/DSC_1231.jpg)
+_![](https://s3.amazonaws.com/yifanj.in/DSC_1231.jpg)_
 
 For starters, the Pixel comes in two versions - a normal version with an Intel i5, 8GB of RAM, 32GB SSD costing $999 and the LS with an Intel i7, 16GB of RAM, and 64GB of SSD storage costing $1299. The screen that the Pixel uses is the same as the 2013 version at 2560x1700, which is an fairly unusual aspect ratio of 3:2 on a 12.85 screen. It's size is fairly similar to the 13" MacBook Pro with Retina display and about just as heavy. It's hardware is actually very comparable to the Macbook Pro and costing somewhat less making the main difference the SSD and the operating system.
 
@@ -20,7 +20,7 @@ And why Linux? I wanted to use something a bit different, especially since I alr
 
 If Google made the Macbook Pro, this is what it would look like. It has the aluminum finish like the Macbooks. Throughout, it's not clear that it's even made by Google at all. The only real indications of it are from the chrome text right above the keyboard and the lightbar in use.
 
-![](https://s3.amazonaws.com/yifanj.in/DSC_1187.jpg)
+_![](https://s3.amazonaws.com/yifanj.in/DSC_1187.jpg)_
 
 In use, it just feels solid with its entirely metal case (screen hinge is plastic) and the glass screen. It is heavier than the Macbook Air but it's in the Macbook Pro weight class, which is perfectly fine for me. It is a more boxy design but that's fine by me. I like the more basic look and the weight is fairly distributed too.
 
@@ -58,7 +58,7 @@ In Linux, a lot of DEs supported HiDPI out of the box (I tried GNOME and Unity) 
 
 The Pixel's screen also has touch capabilities, which is a feature that has really grown on me. I've always thought touchscreens on laptops as kind of a gimmick that never seemed useful. Yet after getting the pixel, I've been using it more and more. For stuff like pinch to zoom, and hitting some buttons or icons, I find myself using touch for that rather than going down to the trackpad. It's simply faster for me to use touch for those simple things because my hand was probably already on the keyboard for that and rather than going down and then moving the trackpad and moving the cursor, one hand can just move up and hit the touch target and resume using the keyboard. Again, touch does work in crouton with Linux but like the cursor, sometimes there are a few problems with it being registered. The main downside with touch is that it leaves plenty of fingerprints which requires a more frequent wiping of the screen. The touchscreen definitely isn't necessary but its a nice addition.
 
-![](https://s3.amazonaws.com/yifanj.in/DSC_1247.jpg)
+_![](https://s3.amazonaws.com/yifanj.in/DSC_1247.jpg)_
 
 **The Battery**
 
