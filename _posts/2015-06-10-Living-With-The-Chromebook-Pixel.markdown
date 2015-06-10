@@ -4,13 +4,13 @@ title: Living With The Chromebook Pixel
 date: 2015-06-10 14:28
 ---
 
-![](https://s3.amazonaws.com/yifanj.in/DSC_1231.jpg)
-
 The Chromebook Pixel is an unusual device. Contrary to every other Chromebook and the idea behind them, the Pixel is  expensive with powerful hardware on a very limiting operating system that serves as only a web browser. Yet regardless, I bought one anyways because I was intrigued by the device and a few tricks it has that people who haven't looked into ChromeOS devices aren't aware of.
 
-![](https://s3.amazonaws.com/yifanj.in/DSC_1219.jpg)
+![](https://s3.amazonaws.com/yifanj.in/DSC_1231.jpg)
 
 For starters, the Pixel comes in two versions - a normal version with an Intel i5, 8GB of RAM, 32GB SSD costing $999 and the LS with an Intel i7, 16GB of RAM, and 64GB of SSD storage costing $1299. The screen that the Pixel uses is the same as the 2013 version at 2560x1700, which is an fairly unusual aspect ratio of 3:2 on a 12.85 screen. It's size is fairly similar to the 13" MacBook Pro with Retina display and about just as heavy. It's hardware is actually very comparable to the Macbook Pro and costing somewhat less making the main difference the SSD and the operating system.
+
+![](https://s3.amazonaws.com/yifanj.in/DSC_1219.jpg)
 
 So why not spend the extra $200-300 for a Macbook Pro since it has a more robust operating system? For me, it's because Chromebooks support something called [crouton](https://github.com/dnschneid/crouton). It essentially allows for the running of both Linux and ChromeOS at the same time, even in a browser tab with the help of an extension. Through crouton, pretty much everything ends up working smoothly in terms of hardware support. Installing Linux natively on the hardware is also simple as the Pixel fully supports SeaBIOS and there is a [kernel](https://github.com/tsowell/linux-samus) to fix hardware issues that you may encounter out of the box. Simply because of this, the Pixel became a really high contender as it became a Thinkpad alternative - great hardware with great Linux compatibility.
 
