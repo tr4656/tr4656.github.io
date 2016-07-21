@@ -53,6 +53,16 @@ img {
   margin: 0 0 1rem;
   border-radius: 5px;
 }
+em img {
+  max-width: 54rem;
+  margin-left: -7rem;  
+}
+@media screen and (max-width: 56rem) {
+  em img {
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
 
 table {
   margin-bottom: 1rem;
@@ -76,7 +86,25 @@ tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
+
+/* Archive Typography */
+.date {
+  margin: 5rem 0 0.5rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.meta-date {
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+  text-transform: uppercase
+}
 /* Links */
 .link { 
   color: #a43c3e !important;
+}
+.permalink {
+  margin-bottom: 0.5rem;
+  display: inline-block;
 }
