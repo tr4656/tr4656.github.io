@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Charging With Usb Type-C
+title: Charging With USB Type-C
 date: 2015-06-18 10:14
 ---
 
