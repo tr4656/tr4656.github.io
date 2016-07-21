@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article class="post">
-  <h1 class="post-title">{% if layout.link %}<a href="{{ layout.link }}" class="link">{{ page.title }}</a>{% else %}{{ page.title }}{% endif %}{% if layout.link %} →{% endif %}</h1>
+  <h1 class="post-title">{% if post.link %}<a href="{{ post.link }}" class="link">{{ page.title }}</a>{% else %}{{ page.title }}{% endif %}{% if layout.link %} →{% endif %}</h1>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
   {{ content }}
   <span class="meta-permalink"><a href="{{ page.url | prepend: site.url }}">Permalink</a></span><span class="permalink"> <a href="{{ page.url | prepend: site.url }}">∞</a></span>
